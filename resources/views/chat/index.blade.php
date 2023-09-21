@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chat Live</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
-    <script src="http://{{ Request::getHost() }}:6001/socket.io/socket.io.js"></script>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -52,5 +51,6 @@
     <input id="msg" type="text" placeholder="Tapez votre msg">
     <button id="submitButton">Envoyer</button>
 </div>
+<script src="//{{ Request::getHost() }}:6001/socket.io/socket.io.js"></script>
 </body>
 </html>
