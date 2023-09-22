@@ -66,7 +66,7 @@
 </head>
 <body>
 <div class="terminal">
-    <div class="command">C-H-A-T-L-I-V-E</div>
+    <div class="command">C-H-A-T-L-I-V-E-Redis</div>
     <a href="{{ route('chat.index') }}" class="button-link">Testez le chat</a>
 </div>
 </body>
