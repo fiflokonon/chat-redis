@@ -18,4 +18,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/try', function () {
+   return event(new App\Events\SendMessage('Test'));
+});
+
 Route::resource('chat', ChatController::class);
